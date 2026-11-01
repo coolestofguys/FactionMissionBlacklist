@@ -1,6 +1,6 @@
 {
-	# Faction IDs whose markets should never be picked as vanilla mission destinations
-	# (delivery bar events, procurement, etc.).
+	# Faction IDs whose markets are blacklisted: they will never be picked as vanilla mission destinations
+	# (delivery bar events and other vanilla missions).
 	#
 	# To find a faction's ID:
 	#  - open that mod's data/world/factions/ folder; the .faction file name
@@ -12,7 +12,7 @@
 	#
 	# Other mods can add their own boss factions to this list by including the same
 	# key in their own data/config/settings.json; Starsector merges the arrays.
-	"factionMissionFilter_factions":[
+	"factionMissionBlacklist_factions":[
 		"adversary",
 		"HIVER",
 	],
