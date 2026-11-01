@@ -64,10 +64,6 @@ filtered.
 
 No dependencies. Compiled from source by the game, no jar needed.
 
-**Upgrading from FactionMissionFilter 1.0.0:** delete the old `FactionMissionFilter` folder,
-install this one, and enable **Faction Mission Blacklist** in the launcher. Leftover flags from
-the old version are cleaned up automatically the next time you save.
-
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).

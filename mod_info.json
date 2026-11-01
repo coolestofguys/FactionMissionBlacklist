@@ -3,7 +3,7 @@
 	"name": "Faction Mission Blacklist",
 	"author": "coolestofguys",
 	"utility": "true",
-	"version": "1.1.0",
+	"version": "1.0.0",
 	"description": "Stops vanilla missions (most noticeably the delivery bar event) from sending you to blacklisted boss factions such as Adversary and Hivers. Edit data/config/settings.json to choose factions. Nothing is stored in your save, so it can be added or removed at any time.",
 	"gameVersion": "0.98a-RC8",
 	"modPlugin": "data.scripts.factionblacklist.FactionBlacklistModPlugin"

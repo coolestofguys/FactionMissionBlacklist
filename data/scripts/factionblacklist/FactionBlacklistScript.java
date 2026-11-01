@@ -32,7 +32,7 @@ public class FactionBlacklistScript implements EveryFrameScript {
 	public static final String SETTINGS_KEY = "factionMissionBlacklist_factions";
 	public static final String FLAG_KEY = "$factionMissionBlacklist_flagged";
 
-	// Keys used by pre-release / 1.0.0 builds (BossMissionFilter, FactionMissionFilter).
+	// Keys used by unreleased development builds (BossMissionFilter, FactionMissionFilter).
 	// Markets carrying them are cleaned up so old saves end up fully clean too.
 	private static final String[] LEGACY_FLAG_KEYS = {
 		"$factionMissionFilter_flagged",
