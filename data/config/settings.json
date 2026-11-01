@@ -1,0 +1,19 @@
+{
+	# Faction IDs whose markets should never be picked as vanilla mission destinations
+	# (delivery bar events, procurement, etc.).
+	#
+	# To find a faction's ID:
+	#  - open that mod's data/world/factions/ folder; the .faction file name
+	#    (without the extension) is the faction ID, or
+	#  - with Console Commands installed, run:  list factions
+	#
+	# IDs are case-sensitive. Factions that aren't installed are ignored
+	# (a warning is written to starsector.log).
+	#
+	# Other mods can add their own boss factions to this list by including the same
+	# key in their own data/config/settings.json; Starsector merges the arrays.
+	"factionMissionFilter_factions":[
+		"adversary",
+		"HIVER",
+	],
+}

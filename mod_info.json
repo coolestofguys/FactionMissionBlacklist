@@ -1,0 +1,10 @@
+{
+	"id": "faction_mission_filter",
+	"name": "FactionMissionFilter",
+	"author": "coolestofguys",
+	"utility": "true",
+	"version": "1.0.0",
+	"description": "Marks markets of listed boss factions (Adversary, Hivers, etc.) as invalid mission targets, so vanilla delivery bar events and other vanilla missions stop sending you there. Edit data/config/settings.json to choose factions. Safe to add or remove mid-save.",
+	"gameVersion": "0.98a-RC8",
+	"modPlugin": "data.scripts.factionfilter.FactionFilterModPlugin"
+}
